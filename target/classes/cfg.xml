@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/hibernate</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">Djsce#@2017extc</property>
+        <property name="hibernet.dialect">org.hibernet.dialect.MySQLDialect</property>
+        <property name="hbm2ddl.auto">create</property>
+        <property name="show_sql">true</property>
+        <mapping class="org.example.Student"/>
+        <mapping class="org.example.Address"/>
+        <mapping class="org.example.Certificate"/>
+    </session-factory>
+</hibernate-configuration>
