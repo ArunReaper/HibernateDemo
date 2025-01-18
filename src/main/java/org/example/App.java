@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class App {
     public static void main(String[] args) throws IOException {
-        System.out.println("Hello World!");
+        System.out.println("Welcome To Hibernate Tutorial");
 
         Configuration cfg = new Configuration();
         cfg.configure("cfg.xml");
