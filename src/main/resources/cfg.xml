@@ -8,10 +8,12 @@
         <property name="connection.username">root</property>
         <property name="connection.password">Djsce#@2017extc</property>
         <property name="hibernet.dialect">org.hibernet.dialect.MySQLDialect</property>
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         <mapping class="org.example.Student"/>
         <mapping class="org.example.Address"/>
         <mapping class="org.example.Certificate"/>
+        <mapping class="com.mappings.Question"/>
+        <mapping class="com.mappings.Answer"/>
     </session-factory>
 </hibernate-configuration>
